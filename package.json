@@ -1,0 +1,41 @@
+{
+  "name": "reactavancado-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && yarn install"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^20.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "knex": "<0.20.0",
+    "pg": "latest",
+    "strapi": "3.1.1",
+    "strapi-admin": "3.1.1",
+    "strapi-connector-bookshelf": "3.1.1",
+    "strapi-plugin-content-manager": "3.1.1",
+    "strapi-plugin-content-type-builder": "3.1.1",
+    "strapi-plugin-email": "3.1.1",
+    "strapi-plugin-graphql": "3.1.1",
+    "strapi-plugin-upload": "3.1.1",
+    "strapi-plugin-users-permissions": "3.1.1",
+    "strapi-utils": "3.1.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4a05f75d-ee9d-49e8-9626-72cad9499527"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
