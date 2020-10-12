@@ -2346,10 +2346,10 @@ autoprefixer@^9.5.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@^2.619.0:
-  version "2.771.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.771.0.tgz#ff4beb0a04d6ab1ae962c85dfb42e3e9bfe2b93b"
-  integrity sha512-fqNGusCwkdemx3yFqvQbU1+xq/PB2wGq7EQIrrTZx/zxfXUp+7+PnrHzXtViCRghN0tylLghBfWYD4VcVcqi7g==
+aws-sdk@2.758.0:
+  version "2.758.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.758.0.tgz#9df99d5e3e22031b4ab7d9332f82782ecc29a7b3"
+  integrity sha512-jxuJuoUb/yVkYaJy6OuPQ5XKRajZXDKPZHvSiF0u5n3DlZfNoj92yHxidm+zpC1DeS/4is6xFCAmEct5lHAy/Q==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2751,7 +2751,7 @@ buffer@4.9.2, buffer@^4.3.0:
     ieee754 "^1.1.4"
     isarray "^1.0.0"
 
-buffer@^5.1.0, buffer@^5.5.0, buffer@^5.6.0:
+buffer@^5.1.0, buffer@^5.5.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.6.0.tgz#a31749dc7d81d84db08abf937b6b8c4033f62786"
   integrity sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==
@@ -3062,21 +3062,6 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
-cloudinary-core@^2.10.2:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.11.3.tgz#1440f61c6280485094aac87021b7e10f746dc69e"
-  integrity sha512-ZRnpjSgvx+LbSf+aEz5NKzxDB4Z0436aY/0BSDa90kAHiwAyd84VyEi95I74SE80e15Ri9t5S2xtksTXpzk9Xw==
-
-cloudinary@^1.23.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.23.0.tgz#27885567cf698e4ed5f5cc8d57974cb4b16db52b"
-  integrity sha512-akOxzroonvwWkuSVq7BI50nYpZPRXc5DbQIYETCVeKX9ZoToH2Gvc3MdUH63UtKiszuGYE51q2B+jQsJkBp2AQ==
-  dependencies:
-    cloudinary-core "^2.10.2"
-    core-js "3.6.5"
-    lodash "^4.17.11"
-    q "^1.5.1"
-
 cls-bluebird@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cls-bluebird/-/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
@@ -3367,15 +3352,15 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@3.6.5, core-js@^3.0.1, core-js@^3.4.0, core-js@^3.6.4:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
-  integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
-
 core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+
+core-js@^3.0.1, core-js@^3.4.0, core-js@^3.6.4:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
 core-util-is@1.0.2, core-util-is@^1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -3941,14 +3926,6 @@ draft-js@^0.11.5:
     fbjs "^2.0.0"
     immutable "~3.7.4"
     object-assign "^4.1.1"
-
-dropbox@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/dropbox/-/dropbox-5.2.1.tgz#ef2f40d2216bfd90381d033beddb6c13e27b6e56"
-  integrity sha512-B34kdU6X56DdN1wGjRSb30I9oXy4t33ssu+JLbc9wHZACgstRb8Jb2hzoCOtHv+ZCCgwQJ0fEztVcXJRGpHQnQ==
-  dependencies:
-    buffer "^5.6.0"
-    moment "^2.25.3"
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
@@ -4651,7 +4628,7 @@ friendly-errors-webpack-plugin@^1.7.0:
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
-from2@^2.1.0, from2@^2.3.0:
+from2@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
   integrity sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
@@ -5518,14 +5495,6 @@ intl-messageformat@^8.3.7:
   dependencies:
     intl-format-cache "^4.2.43"
     intl-messageformat-parser "^5.2.1"
-
-into-stream@^5.1.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/into-stream/-/into-stream-5.1.1.tgz#f9a20a348a11f3c13face22763f2d02e127f4db8"
-  integrity sha512-krrAJ7McQxGGmvaYbB7Q1mcA+cRwg9Ij2RfWIeVesNBgVDZmzY/Fa4IpZUT3bmdRzMzdf/mzltCG2Dq99IZGBA==
-  dependencies:
-    from2 "^2.3.0"
-    p-is-promise "^3.0.0"
 
 invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -6452,6 +6421,11 @@ lodash@4.17.12:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.12.tgz#a712c74fdc31f7ecb20fe44f157d802d208097ef"
   integrity sha512-+CiwtLnsJhX03p20mwXuvhoebatoh5B3tt+VvYlrPgZC1g36y+RRbkufX95Xa+X4I59aWEacDFYwnJZiyBh9gA==
 
+lodash@4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+
 lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
@@ -6829,11 +6803,6 @@ moment-timezone@^0.5.21, moment-timezone@^0.5.31:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
   integrity sha512-z6IJ5HXYiuxvFTI6eiQ9dm77uE0gyy1yXNApVHqTcnIKfY9tIwEjlzsZ6u1LQXvVgKeTnv9Xm7NDvJ7lso3MtA==
 
-moment@^2.25.3:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
-
 mongodb@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.2.tgz#1154a4ac107bf1375112d83a29c5cf97704e96b6"
@@ -7000,7 +6969,7 @@ node-fetch@2.6.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-node-fetch@2.6.1, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.1:
+node-fetch@2.6.1, node-fetch@^2.1.2, node-fetch@^2.2.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
@@ -7330,11 +7299,6 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
-
-p-is-promise@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-3.0.0.tgz#58e78c7dfe2e163cf2a04ff869e7c1dba64a5971"
-  integrity sha512-Wo8VsW4IRQSKVXsJCn7TomUaVtyfjVDn3nUP7kE967BQk0CwFpdbZs0X0uk5sW9mkBa9eNM7hCMaG93WUAwxYQ==
 
 p-limit@^2.0.0:
   version "2.3.0"
@@ -7949,11 +7913,6 @@ purest@3.1.0:
     "@purest/config" "^1.0.0"
     "@request/api" "^0.6.0"
     extend "^3.0.0"
-
-q@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@6.7.0:
   version "6.7.0"
@@ -9772,34 +9731,18 @@ strapi-provider-email-sendmail@3.1.1:
     sendmail "^1.6.1"
     strapi-utils "3.1.1"
 
-strapi-provider-upload-cloudinary@^3.2.3:
+strapi-provider-upload-aws-s3@^3.2.3:
   version "3.2.3"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.2.3.tgz#3076631eda29388bb164226feb6ae55dd9f84dd1"
-  integrity sha512-ZedjoOlIHpHdTE+Bg5xDMZY99OZOVNEKvvYLnogmvGH8zinon8WrQAEyDor6Om/v3lRUaY8oNsn4wEwbvrPCGA==
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.2.3.tgz#7598cb02e3b96a6db1b31c499f84ff2f634c9194"
+  integrity sha512-1Z2PyG6TIVFNJX9ZHOrhK7kU9atxBtOeNLSdkLeFsCWQwHkbofhSQW9lv5oOsTsFixGhMr8z+U1hTEpD5UtClA==
   dependencies:
-    cloudinary "^1.23.0"
-    into-stream "^5.1.0"
-
-strapi-provider-upload-dropbox@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-dropbox/-/strapi-provider-upload-dropbox-1.0.2.tgz#e0311c83cb0d284f302a9a8ef1c742da36e2d3b7"
-  integrity sha512-Ts0B5HFuyll1VV310V5HJb00qckWASIt2N+c8TIL2v89NlFkbhOr2StsvdU5+ada5K1iJm9TGBQ5hM2hEvMsqg==
-  dependencies:
-    dropbox "^5.2.1"
-    node-fetch "^2.6.1"
+    aws-sdk "2.758.0"
+    lodash "4.17.19"
 
 strapi-provider-upload-local@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.1.1.tgz#38d155cb2d59b5ec44ca8b2b41dfd33157e9a9ca"
   integrity sha512-fEhST+tzvKOD+M3yFEGQkzKg2bKSEeeB5Ef2Tn9wboNfMgq3RAsAL46tpzqy8wzSvqFMwMyBGWlpXzqldot/lw==
-
-strapi-provider-upload-wasabi@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-wasabi/-/strapi-provider-upload-wasabi-3.0.3.tgz#a77a5bdecab9ebfbd65ab8821dcc2dacc40886d1"
-  integrity sha512-f7hh06BprvCKz2WCsTUzP4Yi16s3oViCykI5bErP8C8ER4x8fFxk/QswUEL92amnwhLCCZ7DCEbnwGmBoH2bjQ==
-  dependencies:
-    aws-sdk "^2.619.0"
-    bluebird "^3.7.2"
 
 strapi-utils@3.1.1:
   version "3.1.1"
