@@ -9,7 +9,7 @@ A quick description of your strapi application
 
 ### iOS
 
-- [X] Safari
+- [x] Safari
 - [ ] Chrome
 
 ### Android
